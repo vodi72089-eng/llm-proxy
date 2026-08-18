@@ -1,6 +1,6 @@
-const { authenticate } = require('../lib/auth');
-const { getProviderKeys } = require('../lib/supabase');
-const providers = require('../lib/providers');
+const { authenticate } = require('./auth');
+const { getProviderKeys } = require('./supabase');
+const providers = require('./providers');
 
 module.exports = async (req, res) => {
   // CORS
